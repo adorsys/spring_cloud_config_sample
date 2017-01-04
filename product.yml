@@ -1,0 +1,4 @@
+server:
+  context-path: /product
+  port: 8082
+
