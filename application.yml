@@ -1,0 +1,3 @@
+banner:
+  location: ${spring.cloud.config.uri}/banner.txt
+
