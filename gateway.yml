@@ -1,0 +1,9 @@
+server:
+  context-path: /gateway
+  port: 8080
+zuul:
+  routes:
+    cart.url: http://cart:8081/cart/
+    product.url: http://product:8082/product/
+ribbon:
+  eureka.enabled: false
