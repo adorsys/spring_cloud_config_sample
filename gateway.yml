@@ -1,5 +1,5 @@
 server:
-  context-path: /gateway
+  context-path: /
   port: 8080
 zuul:
   routes:
