@@ -1,4 +1,4 @@
 server:
   context-path: /cart
   port: 8081
-cart.count: 42
+springSale: false
