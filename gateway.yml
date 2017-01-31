@@ -5,5 +5,8 @@ zuul:
   routes:
     cart.url: http://cart:8081/cart/
     product.url: http://product:8082/product/
+    # make all gateway resources available _and filtered_ under /gateway
+    gateway.url: http://localhost:${server.port}/
 ribbon:
   eureka.enabled: false
+  
